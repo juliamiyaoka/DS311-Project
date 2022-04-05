@@ -1,0 +1,41 @@
+1+1+10
+2^4
+17%%4
+x<-2
+2->x
+x=2
+2=x
+assign("x",2.5)
+class(x)
+x<-"2.5"
+class(x)
+is.numeric(x)
+i<-5
+is.numeric(i)
+i<-5L
+is.numeric(i)
+x<-c(1,2,3,4)
+x
+x*3
+y=c("red","blue",3)
+x<-11:20
+x
+x[1]
+x[0]
+x[-1]
+x[1:3]
+?"+"
+z<-c(1,2,NA)
+z
+is.na(z)
+mean(z,na.rm=TRUE)
+library(magrittr)
+x<-1:10
+mean(x)
+x %>% mean
+y<--4:5
+q <- c("Hockey", "Football", "Baseball", "Curling", "Rugby",
+       "Lacrosse", "Basketball", "Tennis", "Cricket", "Soccer")
+theDF<-data.frame(x,y,q)
+theDF
+class(theDF)
